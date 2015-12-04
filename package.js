@@ -1,5 +1,5 @@
-const version = '0.4.7';
-
+const version = '0.4.8';
+const npmVersion = '0.4.7';
 Package.describe({
   name: 'akasha:adm-zip',
   version: version,
@@ -13,7 +13,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'adm-zip':  version
+  'adm-zip':  npmVersion
 });
 
 
